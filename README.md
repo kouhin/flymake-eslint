@@ -20,7 +20,7 @@ Usage
 Add the following to your emacs init file:
 
     (require 'flymake-eslint)
-    (add-hook 'eslint-mode-hook 'flymake-eslint-load)
+    (add-hook 'js-mode-hook 'flymake-eslint-load) ;; or js2-mode-hook, perhaps
 
 
 [marmalade]: http://marmalade-repo.org
